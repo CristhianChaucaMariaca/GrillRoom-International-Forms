@@ -2,12 +2,12 @@ extends ../templates/template-dishes
 include ../mixins/platos
 block append config
     // TODO: * Modificar nombre de Objeto
-    - page = plates.name
+    - page = salsas.name
     // TODO: * Modificar nombre de Objeto
-    - metadescripcion = plates.descripcion
+    - metadescripcion = salsas.descripcion
 block content
-    .container
-        .dishes
+    .container-dishes
+        .dishes.container
             include ../mixins/platos-body
             // TODO: * Modificar nombre de Objeto
-            +platos-body(plates)
+            +platos-body(salsas)

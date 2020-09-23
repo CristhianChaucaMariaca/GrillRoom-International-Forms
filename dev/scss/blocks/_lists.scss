@@ -4,6 +4,7 @@
   margin: 0 auto;
   margin-bottom: 50px;
   margin-top: 30px;
+  color: $color-t;
 
   &__header {
     text-align: center;
@@ -29,6 +30,7 @@
     align-items: baseline;
     margin-bottom: 7px;
     position: relative;
+    font-family: $font-l;
   }
   &__name {
     flex-grow: 1;
@@ -68,6 +70,7 @@
 .chops {
   display: flex;
   flex-direction: column;
+  font-family: $font-l;
   &__header {
     display: flex;
   }

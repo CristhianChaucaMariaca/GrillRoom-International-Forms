@@ -1,29 +1,20 @@
-@media screen and(max-width:1366px)
-{
-    body{
-        font-size: 16px;
-    }
+@media screen and(max-width:1366px) {
+  body {
+    font-size: 16px;
+  }
 }
-@media screen and(min-width:1367px)
-{
-    body{
-        font-size: 19px;
+@media screen and(min-width:1367px) {
+  body {
+    font-size: 19px;
+  }
+  .plate {
+    width: 37.5rem;
+    &__logo {
+      width: 5em;
     }
-    .plate{
-        width: 37.5rem;
-        &__logo{
-            width: 10.625rem;
-        }
-        &__title{
-        }
-        &__text{
-        }
-        &__pepsi{
-            
-        }
-    }
-    .lists{
-        font-size: 1.5rem;
-        max-width: 100%;
-    }
+  }
+  .lists {
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
 }
