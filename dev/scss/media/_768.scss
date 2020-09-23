@@ -3,9 +3,14 @@
     width: 90%;
   }
   .menu {
+    width: 50%;
+    min-width: 364px;
+    margin: 0 auto;
     &__nav {
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
     &__item {
       width: 160px;
@@ -13,9 +18,8 @@
         grid-row-start: auto;
         grid-column-end: auto;
       }
-      &:nth-last-child(2) {
-        grid-row-start: auto;
-        grid-column-end: auto;
+      &:last-child {
+        margin: 0 auto;
       }
     }
   }

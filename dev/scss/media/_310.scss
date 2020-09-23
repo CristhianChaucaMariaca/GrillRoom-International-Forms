@@ -1,11 +1,12 @@
-@media screen and(max-width:320px) {
+@media screen and(max-width:350px) {
   .dishes {
     &__text {
     }
   }
   .menu {
-    grid-column-gap: 10px;
+    width: 80%;
     &__item {
+      width: 110px;
     }
   }
   .lists {
