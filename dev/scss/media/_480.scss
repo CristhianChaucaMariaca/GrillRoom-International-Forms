@@ -53,14 +53,12 @@
   }
   .menu {
     width: 100%;
-    background-color: red;
     margin: 0 auto;
     &__body{
     }
     &__nav {
       grid-column-gap: 25px;
       grid-row-gap: 25px;
-      background-color: yellow;
     }
     &__cont{
       &:nth-child(odd){

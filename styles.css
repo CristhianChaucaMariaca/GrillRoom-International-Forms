@@ -651,13 +651,11 @@ body {
 
   .menu {
     width: 100%;
-    background-color: red;
     margin: 0 auto;
   }
   .menu__nav {
     grid-column-gap: 25px;
     grid-row-gap: 25px;
-    background-color: yellow;
   }
   .menu__cont:nth-child(odd) {
     justify-content: end;
@@ -710,6 +708,15 @@ body {
   }
 
   .menu__nav {
+    grid-template-columns: 1fr;
+  }
+
+  .headerdishes__text {
+    font-size: 0.9em;
+  }
+
+  .dishes {
+    width: 80%;
     grid-template-columns: 1fr;
   }
 }
