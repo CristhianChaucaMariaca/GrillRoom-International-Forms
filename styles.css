@@ -700,6 +700,7 @@ body {
   .menu__item {
     width: 100px;
     font-size: 0.9em;
+    height: 60px;
   }
 }
 @media screen and (max-width: 270px) {
