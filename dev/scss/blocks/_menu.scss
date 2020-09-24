@@ -5,12 +5,12 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
+  width: 100%;
   &__body {
     max-width: 800px;
     display: block;
   }
   &__logo {
-    background-color: #ccc;
     width: 200px;
     height: 200px;
     margin: 0 auto;
@@ -22,18 +22,32 @@
     grid-column-gap: 40px;
     grid-row-gap: 40px;
   }
-
+  &__cont{
+    display: block;
+    display: flex;
+    justify-content: center;
+    &:last-child{
+      grid-column-start: 2;
+    }
+  }
   &__item {
     font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     color: $colorsecundario;
-    position: relative;
-    width: 180px;
+    width: 100%;
+    height: 75px;
+    max-width: 210px;
+    display: block;
     border: 2px solid $colorsecundario;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-left: .2em;
+    padding-right: .2em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:hover {
       transform: scale(1.05);
       transition: all 0.3s;
