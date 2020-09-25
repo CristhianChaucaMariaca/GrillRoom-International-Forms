@@ -50,9 +50,6 @@
       transform: scale(1.05);
       transition: all 0.3s;
     }
-    &:last-child {
-      grid-column-start: 2;
-    }
   }
   &__btn {
     width: 100%;
