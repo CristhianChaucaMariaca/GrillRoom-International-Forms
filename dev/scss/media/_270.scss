@@ -1,12 +1,23 @@
-@media screen and(max-width:270px){
+@media screen and(max-width:284px){
     .header{
         &__logo{
             width: 60%;
         }
     }
     .menu{
-        &__nav{
-            grid-template-columns: 1fr;
+        &__item {
+            width: 90%;
+            font-size: 0.9em;
+            height: 60px;
+            &:nth-child(odd){
+              margin: 0px auto 20px  auto;
+            }
+            &:nth-child(even){
+              margin: 0px auto 20px  auto;
+            }
+            &:last-child{
+              margin-bottom: 0px;
+            }
         }
     }
     .headerdishes{

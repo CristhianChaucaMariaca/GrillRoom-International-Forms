@@ -3,19 +3,15 @@
     width: 90%;
   }
   .menu {
-    width: 50%;
     margin: 0 auto;
-    &__nav {
-      grid-template-columns: repeat(2, 1fr);
+    &__body{
+      width: 90%;
     }
-    &__cont{
-      &:last-child{
-        grid-column-start: 1;
-        grid-column-end: -1;
-      }
+    &__nav {
+      grid-template-columns: repeat(3, 1fr);
+      width: 100%;
     }
     &__item {
-      width: 145px;
       margin:0 auto;
     }
     &__text{

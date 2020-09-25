@@ -57,25 +57,30 @@
     &__body{
     }
     &__nav {
-      grid-column-gap: 25px;
-      grid-row-gap: 25px;
-    }
-    &__cont{
-      &:nth-child(odd){
-        justify-content: end;
-      }
-      &:nth-child(even)
-      {
-        justify-content: start;
-      }
-      &:last-child{
-        margin: 0 auto;
-      }
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      grid-row-gap: 0px;
+      grid-column-gap: 0px;
+      width: 90%;
+      margin: 0 auto;
     }
     &__item {
       font-size: 1.1em;
       width: 130px;
-      
+      &:nth-child(odd)
+      {
+        margin-right: 15px;
+        margin-bottom: 30px;
+      }
+      &:nth-child(even)
+      {
+        margin-left: 15px;
+        margin-bottom: 30px;
+      }
+      &:last-child{
+        margin: 0 auto;
+      }
     }
   }
   .btn {
