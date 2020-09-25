@@ -23,9 +23,6 @@
     grid-row-gap: 40px;
   }
   &__cont{
-    display: block;
-    display: flex;
-    justify-content: center;
     &:last-child{
       grid-column-start: 2;
     }
@@ -44,6 +41,9 @@
     padding-right: .2em;
     padding-top: .2em;
     padding-bottom: .2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     justify-content: center;
     align-items: center;
     &:hover {
