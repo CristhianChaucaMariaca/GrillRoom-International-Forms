@@ -32,15 +32,18 @@
       padding-right: 10px;
     }
     &__logo {
+      width: 100px;
     }
     &__title {
-      line-height: 1.1em;
+      line-height: 1.2em;
       margin-top: 20px;
     }
     &__price {
+      font-size: 1.4em;
     }
     &__text {
       margin-top: 20px;
+      font-size: 1em;
     }
   }
   .sponsors {
