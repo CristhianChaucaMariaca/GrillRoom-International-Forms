@@ -35,10 +35,12 @@
     }
     &__title {
       line-height: 1.1em;
+      margin-top: 20px;
     }
     &__price {
     }
     &__text {
+      margin-top: 20px;
     }
   }
   .sponsors {
@@ -84,7 +86,7 @@
     }
   }
   .btn {
-    width: 80px;
+    width: 60px;
   }
   .lists {
     font-size: 0.9em;
