@@ -1,6 +1,7 @@
 @media screen and(max-width:360px) {
   .dishes {
-    &__text {
+    &__name {
+      font-size: 1.1em;
     }
   }
   .menu {
@@ -27,5 +28,8 @@
       width: 100px;
       height: 70px;
     }
+  }
+  .dishes{
+    
   }
 }
