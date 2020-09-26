@@ -1,10 +1,10 @@
 .menu {
+  flex-grow: 1;
   font-size: 1rem;
   max-width: 100wh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
   width: 100%;
   &__body {
     max-width: 800px;

@@ -4,15 +4,16 @@ html(lang="es")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         include header
-    body            
-        block header
-        block content
-        block btnAtras
-        block preloading
-            include ../includes/preloading
-        block scripts
-            include ../includes/scripts
-        block line
-            include ../includes/line
-        block footer
-            include ../includes/footer
+    body
+        .content-max            
+            block header
+            block content
+            block btnAtras
+            block preloading
+                include ../includes/preloading
+            block scripts
+                include ../includes/scripts
+            block line
+                include ../includes/line
+            block footer
+                include ../includes/footer

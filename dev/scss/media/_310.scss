@@ -5,15 +5,27 @@
   }
   .menu {
     &__nav{
+      width: 100%;
     }
     &__item {
-      width: 100px;
-      font-size: 0.9em;
-      height: 60px;
+      width: 120px;
     }
   }
   .lists {
   }
   .chops {
+  }
+}
+@media screen and(max-width:300px) {
+  .header{
+    &__logo{
+      width: 60%;
+    }
+  }
+  .menu{
+    &__item{
+      width: 100px;
+      height: 70px;
+    }
   }
 }
