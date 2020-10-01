@@ -45,15 +45,6 @@
   &__picture {
     display: block;
     position: relative;
-    &:after {
-      content: "";
-      border: solid 2px $color-p;
-      width: 91%;
-      height: 90%;
-      position: absolute;
-      top: 4.5%;
-      left: 4%;
-    }
   }
   &__plate {
   }
