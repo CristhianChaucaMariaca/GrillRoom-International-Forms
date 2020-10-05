@@ -35,7 +35,7 @@
       width: 100px;
     }
     &__title {
-      line-height: 1.2em;
+      line-height: 1.4em;
       margin-top: 20px;
     }
     &__price {
@@ -44,6 +44,7 @@
     &__text {
       margin-top: 20px;
       font-size: .9em;
+      line-height: 1.5;
     }
   }
   .sponsors {
