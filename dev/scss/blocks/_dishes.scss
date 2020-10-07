@@ -59,6 +59,9 @@
     display: block;
     margin-top: 5px;
   }
+  &__title--second{
+    display: none;
+  }
   &__name {
     font-family: $font-r;
     text-transform: uppercase;
