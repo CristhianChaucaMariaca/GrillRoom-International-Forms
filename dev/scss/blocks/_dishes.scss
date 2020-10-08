@@ -58,6 +58,9 @@
     width: 100%;
     display: block;
     margin-top: 5px;
+    span{
+      display: none;
+    }
   }
   &__title--second{
     display: none;
