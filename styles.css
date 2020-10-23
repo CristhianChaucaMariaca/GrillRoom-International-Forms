@@ -478,6 +478,9 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+.sponsors__content--plate {
+  margin-top: 70px;
+}
 .sponsors__body {
   display: flex;
   flex-direction: row;
@@ -527,7 +530,7 @@ body {
     width: 37.5rem;
   }
   .plate__logo {
-    width: 10em;
+    width: 6em;
   }
 
   .lists {
